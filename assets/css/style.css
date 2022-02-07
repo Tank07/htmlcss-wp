@@ -9,17 +9,37 @@ body{
     margin: auto; 
 }
 
-  main,
-  section{
+main,
+section{
       margin: 30px 0;  
-  }
+}
 
-  header{
-      background-color: blueviolet;
+header{
+      background-color: rgb(236, 233, 233);
       width: 100%;
       height: 100px;
-      margin-top: 30px;
-  }
+      position: relative;
+}
+
+#logo{
+    height: 50px;
+    position: absolute;
+    top: 0px;
+}
+
+.navigation-menu li{
+    display: inline-block;
+}
+
+.navigation-menu a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    bottom: 0px;
+}
 
 .orange{
     background-color: orange;
