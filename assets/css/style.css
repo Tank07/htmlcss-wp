@@ -87,13 +87,13 @@ h4{
     margin: 5px 0;
 }
 
-.c-acqua1{
+.row{
     width: 100%;
     float: none;
     background-color:rgb(236, 233, 233) ;
 }
 
-.c-acqua2{
+.column-1{
     width: 20%;
     float: left;
     background-color: rgb(236, 233, 233);
@@ -101,24 +101,32 @@ h4{
     margin-bottom: 30px;
 }
 
-.c-acqua2 img{
-    width: 100%;
-    border-radius: 5px;
-    height: 220px;
-}
-
-.c-acqua3{
+.column-2{
     width: calc( 60% - 60px );
     background-color: rgb(236, 233, 233);
     float: left;
     margin: 30px;
 }
 
-.c-acqua3 img{
+.c-image{
+    height: 200px;
     width: 100%;
+    background-position: center;
     background-size: cover;
-    height: 220px;
     border-radius: 5px;
+    position: relative;
+}
+
+#img1{
+    background-image: url("..//Images/img-1.jpg");
+
+}
+#img2{
+    background-image: url("..//Images/banner-2.jpg");
+}
+
+#img3{
+    background-image: url("..//Images/img-3.jpg");
 }
 
 footer{
